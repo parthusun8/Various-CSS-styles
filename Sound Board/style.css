@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&family=Shizuru&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: rgb(205, 169, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#pause{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 1rem;
+    background-color: #FF1F1F;
+    color: black;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    margin: 10px;
+    width: 100px;
+    transition: background 0.2s linear, color 0.2s linear;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button-container button{
+    padding: 1rem;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    margin: 10px;
+    width: 100px;
+}
+
+button:focus{
+    background-color: aqua;
+}
